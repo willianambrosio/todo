@@ -11,7 +11,7 @@ function App() {
 	const [todos, setTodos] = useState([]);
 	const [loading, setLoading] = useState("");
 
-	//Load todos on page load
+	//Load todos on page load ..
 	useEffect(() => {
 
 		const loadData = async() => {
@@ -31,7 +31,7 @@ function App() {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-
+		
 		const todo = {
 			id: Math.random(),
 			title,
